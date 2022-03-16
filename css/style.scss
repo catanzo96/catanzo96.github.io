@@ -1,11 +1,44 @@
 .banner {
-  padding: 150px;
+  height: 350px;
   background-color: black;
+  background-image: url("../images/foto_bw.jpg");
+  background-size: cover;
+  background-position: center;
+
+  margin-bottom: 20px;
+
+  h1 {
+    font-size: 2em;
+  }
+
+  h3 {
+    font-size: 1.5em;
+  }
+}
+
+.aboutme {
+  a {
+    text-decoration: none;
+    color: black;
+
+    :hover {
+      color: white;
+      background-color: green;
+    }
+  }
 }
 
 
 @media screen and (min-width: 768px) {
   .banner {
-    padding: 225px;
+    height: 700px;
+
+    h1 {
+      font-size: 3em;
+    }
+
+    h3 {
+      font-size: 2em;
+    }
   }
 }
