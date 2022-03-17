@@ -28,6 +28,53 @@
   }
 }
 
+.card-link {
+  a {
+    text-decoration: none;
+  }
+}
+
+.skills {
+  p {
+    margin-bottom: 0;
+  }
+
+  .progress-bar {
+     background-color: black;
+     border-radius: 20px;
+  }
+  .progress {
+    border-radius: 20px;
+  }
+}
+
+.socials {
+  a {
+    font-size: 2em;
+    padding: 30px;
+
+    :hover {
+      color: #D8D8D8;
+    }
+  }
+
+  .fa-facebook-f {
+    color: #3b5998;
+  }
+
+  .fa-linkedin-in {
+    color: #00aced;
+  }
+
+  .fa-instagram {
+    color: #AD00BD;
+  }
+
+  .fa-github {
+    color: black;
+  }
+}
+
 
 @media screen and (min-width: 768px) {
   .banner {
@@ -39,6 +86,11 @@
 
     h3 {
       font-size: 2em;
+    }
+  }
+  .socials {
+    a {
+      font-size: 3em;
     }
   }
 }
