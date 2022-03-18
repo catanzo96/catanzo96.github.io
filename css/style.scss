@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Loved+by+the+King&display=swap');
+
+
 .banner {
   height: 350px;
   background-color: black;
@@ -75,6 +78,32 @@
   }
 }
 
+hr.light {
+    border-top: 1px solid white;
+  }
+
+footer {
+  height: 250px;
+  background-color: black;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: white;
+}
+
+::-webkit-scrollbar-thumb {
+  background: black;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
 
 @media screen and (min-width: 768px) {
   .banner {
@@ -92,5 +121,9 @@
     a {
       font-size: 3em;
     }
+  }
+  footer {
+    height: 200px;
+    background-color: black;
   }
 }
