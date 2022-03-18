@@ -1,4 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Loved+by+the+King&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap');
+
+$primary-color: #000000;
+$secondary-color: #FAFAFA;
+$tertiary-color: #EEEEEE;
+
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  background-color: $secondary-color
+}
+
+.navbar {
+  background-color: $tertiary-color;
+}
 
 
 .banner {
@@ -22,7 +35,7 @@
 .aboutme {
   a {
     text-decoration: none;
-    color: black;
+    color: $primary-color;
 
     :hover {
       color: white;
@@ -43,10 +56,11 @@
   }
 
   .progress-bar {
-     background-color: black;
+     background-color: $primary-color;
      border-radius: 20px;
   }
   .progress {
+    background-color: $tertiary-color;
     border-radius: 20px;
   }
 }
@@ -70,7 +84,7 @@
   }
 
   .fa-instagram {
-    color: #AD00BD;
+    color: #E03C95;
   }
 
   .fa-github {
@@ -83,8 +97,8 @@ hr.light {
   }
 
 footer {
-  height: 250px;
-  background-color: black;
+  height: 260px;
+  background-color: $primary-color;
 }
 
 ::-webkit-scrollbar {
@@ -96,7 +110,7 @@ footer {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: black;
+  background: $primary-color;
   border-radius: 10px;
 }
 
@@ -104,13 +118,12 @@ footer {
   background: #555;
 }
 
-
 @media screen and (min-width: 768px) {
   .banner {
     height: 700px;
 
     h1 {
-      font-size: 3em;
+      font-size: 3.5em;
     }
 
     h3 {
@@ -124,6 +137,5 @@ footer {
   }
   footer {
     height: 200px;
-    background-color: black;
   }
 }
