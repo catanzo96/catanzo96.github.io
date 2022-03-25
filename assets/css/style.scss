@@ -131,6 +131,15 @@ footer {
   background: #555;
 }
 
+//Projects page
+.projects {
+  padding-top: 65px;
+
+  img {
+    border-radius: 10px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .banner {
     height: 700px;
@@ -143,12 +152,21 @@ footer {
       font-size: 2em;
     }
   }
+
   .socials {
     a {
       font-size: 3em;
     }
   }
+
   footer {
     height: 200px;
+  }
+
+//Projects page
+  .projects {
+    .row-reverse {
+      flex-direction: row-reverse;
+    }
   }
 }
