@@ -4,6 +4,10 @@ $primary-color: #000000;
 $secondary-color: #FAFAFA;
 $tertiary-color: #EEEEEE;
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Roboto Condensed', sans-serif;
   background-color: $secondary-color
